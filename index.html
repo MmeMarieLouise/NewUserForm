@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wellcome Trust - Create New User: Form project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="container">
+    <!-- <div class="alert alert-success" role="alert" style="display:none;">
+         <strong>"Status"</strong>
+         <div class="message"></div>
+     </div>
+     <!-- Form box  -->
+    <div class="fieldset">
+        <!-- Logo  -->
+        <a href="https://wellcome.ac.uk/" target="_blank">
+            <img class="img-responsive" src="assets/images/wellcome-logo-white.png" alt="Wellcome" height="80"
+                 width="80">
+        </a>
+        <div class="intro">
+            <h3>Working title: Create New User Form</h3>
+            <!-- Form Description (dummy script)  -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+            </p>
+        </div>
+        <!-- Form  -->
+        <form id="input-group" name="input-group" action="/example" method="post" novalidate>
+            <div class="form-group">
+                <label for="givenName">First Name</label>
+                <input type="text" name="givenName" id="givenName" class="form-control" placeholder="First Name" required>
+                <div class="col-sm-5 messages"></div> <!--error message-->
+            </div>
+            <div class="form-group">
+                <label for="surName">Surname</label>
+                <input type="text" name="surName" id="surName"  class="form-control" placeholder="Last Name" required>
+                <div class="col-sm-5 messages"></div> <!--error message-->
+            </div>
+            <div class="form-group">
+                <label for="departmentName">Department</label>
+                <select id="departmentName" class="form-control" name="departmentName">
+                    <option value="FS">- Select Department -</option>
+                    <option value="DI">Director's Office</option>
+                    <option value="SC">Science</option>
+                    <option value="GR">Grants</option>
+                    <option value="FI">Finance</option>
+                    <option value="DT">Digital & Technology</option>
+                    <option value="FW">Facilities & Workspace</option>
+                    <option value="CS">Culture & Society</option>
+                    <option value="OT">Other</option>
+                    <div class="col-sm-5 messages"></div> <!--error message-->
+                </select>
+                <div class="col-sm-5 messages"></div>
+            </div>
+            <div class="form-group">
+                <input type="text" name="subdepartmentName" id="subdepartmentName" class="form-control" placeholder="Sub Department" required>
+                <div class="col-sm-5 messages"></div> <!--error message-->
+            </div>
+            <div class="form-group">
+                <button type="submit">Create New User</button>
+            </div>
+        </form>
+        <footer>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+        </footer>
+    </div>
+</div>
+<script type ="text/javascript" src="validate.js"></script>
+<script type ="text/javascript" src="underscore.js"></script>
+<script type ="text/javascript" src="popper.js"></script>
+<script type ="text/javascript" src="main.js"></script>
+<script type ="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+</html>

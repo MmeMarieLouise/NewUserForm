@@ -1,0 +1,123 @@
+/*background image-------------------------*/
+body {
+    background-image: url('../images/rodion-kutsaev-956-unsplash.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro {
+    width: 800px;
+    margin-bottom: 20px;
+
+}
+
+.fieldset {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.40);
+    margin-top: 60px;
+}
+
+h3 {
+    color: #fff;
+    opacity: 0.7;
+    margin: 30px 20px 10px 140px;
+}
+
+h3:hover {
+    color: #fff;
+    opacity: 0.4;
+}
+
+
+p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 30px 20px 10px 140px;
+}
+
+
+/*logo-------------------------*/
+img {
+    opacity: 0.5;
+    margin: 15px;
+}
+
+img:hover {
+    opacity: 0.2;
+}
+
+
+/*form----------------------------*/
+input {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+select {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+label {
+    margin: 10px 0px 0px 140px;
+    color: #ffffff;
+    opacity: 0.7;
+    padding: 0px 0px 5px 0px;
+}
+
+
+button {
+    margin-left: 140px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-color: #F07F0A;
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+    color: #F07F0A;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F07F0A;
+    color: #fff;
+    opacity: 0.5;
+}
+
+
+footer {
+    width: 550px;
+}
+
+footer p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0.2;
+}
+
+.help-block.error {
+    margin-bottom: 5px;
+}
+
+/*default styles-----------------*/
+.alert-success {
+    background-color: #d4edda;
+}
+.top-buffer {
+    margin-top: 1em;
+}
+
+.top-buffer {
+    margin-top: 1em;
+}
+
+.form-control {
+    width: 400px;
+    display: block;
+}
